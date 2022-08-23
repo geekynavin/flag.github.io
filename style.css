@@ -1,0 +1,149 @@
+*{
+    background-color: rgb(255, 255, 255);
+}
+.flag {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 1px solid red; */
+
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    color: #ff9933;
+    padding: 10px 10px;
+}
+.btm{
+    text-align: center;
+    margin-top: 420px;
+    font-size: 45px;
+    color: #138808;
+    padding: 10px 10px;
+    
+}
+.orange{
+    background-color: #ff9933;
+    width: 600px;
+    margin: auto;
+    height: 100px;
+}
+.chakra{
+    border: 4px solid #000080;
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    position: relative;
+
+}
+.spoke {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.spoke:before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.spoke:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: navy;
+    border-radius: 50%;
+    width: 100px;
+    height: 3px;
+
+}
+.spoke1{
+    transform: rotate(0deg);
+}
+.spoke2{
+    transform: rotate(15deg);
+}
+.spoke3{
+    transform: rotate(30deg);
+}
+.spoke4{
+    transform: rotate(45deg);
+}
+.spoke5{
+    transform: rotate(60deg);
+}
+.spoke6{
+    transform: rotate(75deg);
+}
+.spoke7{
+    transform: rotate(90deg);
+}
+.spoke8{
+    transform: rotate(105deg);
+}
+.spoke9{
+    transform: rotate(120deg);
+}
+.spoke10{
+    transform: rotate(135deg);
+}
+.spoke11{
+    transform: rotate(150deg);
+}
+.spoke12{
+    transform: rotate(165deg);
+}
+.spoke13{
+    transform: rotate(180deg);
+}
+.spoke14{
+    transform: rotate(195deg);
+}
+.spoke15{
+    transform: rotate(210deg);
+}
+.spoke16{
+    transform: rotate(225deg);
+}
+.spoke17{
+    transform: rotate(240deg);
+}
+.spoke18{
+    transform: rotate(255deg);
+}
+.spoke19{
+    transform: rotate(270deg);
+}
+.spoke20{
+    transform: rotate(285deg);
+}
+.spoke21{
+    transform: rotate(300deg);
+}
+.spoke22{
+    transform: rotate(315deg);
+}
+.spoke23{
+    transform: rotate(330deg);
+}
+.spoke24{
+    transform: rotate(345deg);
+}
+
+.green{
+    background-color: #138808;
+    width: 600px;
+    margin: auto;
+    height: 100px;
+
+}
